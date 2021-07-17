@@ -477,6 +477,29 @@ footer .footer-socials img:hover{
    animation: bounce  2s infinite;
    
 }
+.to-top{
+
+    position: fixed;
+    right: 0px;
+    bottom: 4px;
+    z-index: 999;
+    display: none;
+    transition: 8s;
+    animation: bounce 1s infinite;
+    /* box-shadow: 5px 5px 15px 15px #ffffff; */
+    /* background-color: #db5252; */
+    font-size: 5px;
+    border-radius: 35px;
+  }
+.mytop{
+  padding: 7px 15px;
+  color: #ffffff;
+ 
+}
+.to-top:hover{
+  animation: pulse 1.5s infinite;
+  cursor: pointer;
+}
 
 @keyframes bounce {
     0%, 100%, 20%, 50%, 80% {
