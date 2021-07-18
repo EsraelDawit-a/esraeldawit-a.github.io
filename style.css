@@ -261,7 +261,7 @@ section.services .card-wrapper .card p{
     line-height: 1.6;
 }
 section.services .card-wrapper .card:hover{
-    background: var(--dark);
+    
     cursor: pointer;
     transition: all 2.8 ease;
 }
