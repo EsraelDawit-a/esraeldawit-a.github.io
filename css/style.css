@@ -530,6 +530,28 @@ section.share p{
     line-height: 2;
     margin-left: 25px;
 }
+.typing{
+    margin-left: 10px;
+    position: relative;
+}
+.typing::after{
+    content: "";
+    position: absolute;
+    right:-6px;
+    width:25px;
+    height:80%;
+    border-right: 5px solid var(--primary);
+    animation:0.3s blink infinite ease;
+}
+@keyframes blink{
+    0%{
+    opacity: 0;
+    }
+
+100%{
+    opacity: 1;
+}
+}
 @keyframes bounce {
     0%, 100%, 20%, 50%, 80% {
      -webkit-transform: translateY(0);

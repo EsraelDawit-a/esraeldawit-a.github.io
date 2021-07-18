@@ -44,7 +44,7 @@
             </div>
             <div class="right flex-1">
                 <h6>Esrael Dawit</h6>
-                <h1>I'm Creative <br><span class="animate">Designer</span></h1>
+                <h1>I'm Creative <br><span class="typing">Designer</span></h1>
                 <p>I'm talented Web Designer and Developer with Some Backend And Front end Skills Experianced in My Carier.
                     Html, Css, Javascript, Php ,Flutter,Git ,Database Design and Developmet
 
@@ -441,19 +441,27 @@
         </div>
 
     </footer>
-    <script src="type.js"></script>
     <script>
-        var typed = new Typed('.animate',{
-        strings: [
-            "Web Designer",
-            "Web Developer",
-            "MobileDeveloper",
-            "Programmer"
-        ],
-        typeSpeed:200,
-        backSpeed:100,
-        loop :true
-    })
+const texts =["Software Developer", "front-end Developer", "Quick Learner"];
+let count=0;
+let index=0;
+let currentText="";
+let letter="";
+
+(function type(){
+    if (count === texts.length){
+        count=0;
+    }
+    currentText = texts[count];
+    letter = currentText.slice(0, ++index);
+    
+    document.querySelector(".typing").textContent = letter;
+    if(letter.length === currentText.length){
+        count++;
+        index=0;
+    }
+    setTimeout(type,250);
+})();
 
     //Get the button:
 mybutton = document.getElementById("myBtn");
