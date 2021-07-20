@@ -242,6 +242,7 @@ section.services .card-wrapper .card{
     padding-top: 5rem;
     text-align: center;
     border-radius: 5px;
+ 
 }
 section.services .card-wrapper .card img{
     position: absolute;
@@ -260,15 +261,67 @@ section.services .card-wrapper .card p{
     color: var(--ternary);
     line-height: 1.6;
 }
-section.services .card-wrapper .card:hover{
+
+
+section.services .card-wrapper .card:nth-child(1):hover{
+    
+    box-shadow: 0 0 25px 0 rgba(20, 27, 201, .05);
+    cursor: pointer;
+    background-image: linear-gradient(-45deg, #fb0054 0%, #f55b2a 100%);
+
+}
+section.services .card-wrapper .card:nth-child(2):hover{
     
     cursor: pointer;
     transition: all 2.8 ease;
+    box-shadow: 0 0 25px 0 rgba(20, 27, 201, .05);
+    cursor: pointer;
+  
+    background-image: linear-gradient(-45deg, #34b5bf 0%, #210c59 100%);
+    transition: 13s;
 }
-section.services .card-wrapper .card:hover h2,section.services .card-wrapper .card :hover p{
-    color: var(--pure);
+section.services .card-wrapper .card:nth-child(3):hover{
+    
     cursor: pointer;
     transition: all 2.8 ease;
+    box-shadow: 0 0 25px 0 rgba(20, 27, 201, .05);
+    cursor: pointer;
+  
+    background-image: linear-gradient(-45deg, #3615e7 0%, #44a2f6 100%);
+    transition: 13s;
+}
+section.services .card-wrapper .card:nth-child(4):hover{
+    
+    cursor: pointer;
+    transition: all 2.8 ease;
+    box-shadow: 0 0 25px 0 rgba(20, 27, 201, .05);
+    cursor: pointer;
+  
+    background-image: linear-gradient(-45deg, #fc6a0e 0%, #fdb642 100%);
+    transition: 13s;
+}
+section.services .card-wrapper .card:nth-child(5):hover{
+    
+    cursor: pointer;
+    transition: all 2.8 ease;
+    box-shadow: 0 0 25px 0 rgba(20, 27, 201, .05);
+    cursor: pointer;
+  
+    background-image: linear-gradient(-45deg, #8d40fb 0%, #5a57fb 100%);
+    transition: 13s;
+}
+section.services .card-wrapper .card:nth-child(6):hover{
+    
+    cursor: pointer;
+    background-image: linear-gradient(-45deg, #27b88d 0%, #22dd73 100%);
+    transition: 13s;
+}
+
+
+section.services .card-wrapper .card:hover h2, section.services .card-wrapper .card:hover p{
+    color: var(--pure);
+    cursor: pointer;
+    box-shadow: 0 0 25px 0 rgba(20, 27, 201, .05);
 }
 
 section.freelancer{
