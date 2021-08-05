@@ -12,6 +12,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap" rel="stylesheet"> 
+<link rel="stylesheet" href="https://s.pageclip.co/v1/pageclip.css" media="screen">
 <title>Esrael Dawit |Personal |Portifolio |2021 |@Astu</title>
 
 
@@ -23,7 +24,7 @@
             <div class="logo-top">
                 <img src="logos/logo2.png" alt="">
             </div>
-            <div class="left flex center-items">
+            <div class="left flex center-items" id="mynave">
                 <ul class="left flex center-items">
                     <li><a href="#home" >Home</a> </li>
                     <li><a href="#about">About</a></li>
@@ -38,12 +39,16 @@
             <div class="right">
                 <button class="btn btn-primary">Contact</button>
             </div>
+            <div class=" rm">
+                <ul onclick="dropMenue()" id="btn" class="dropme"> &#9777; </ul>
+            </div>
         </nav>
-        <div id="#about" class="hero flex center-items justify-between">
+        <div class="homee">
+        <div id="#about" class="hero cnt flex center-items justify-between">
             <div class="left flex-1 flex justify-center">
                 <img src="images/pro.jpg">
             </div>
-            <div class="right flex-1">
+            <div class="right cnt flex-1">
                 <h6>Esrael Dawit</h6>
                 <h1>I'm Creative <br><span class="typing">Designer</span></h1>
                 <p>I'm talented Web Designer and Developer with Some Backend And Front end Skills Experianced in My Carier.
@@ -59,9 +64,11 @@
             </div>
         </div>
     </div>
+
+    </div>
     </header>
     <section id= "about" class="about">
-        <div class="container flex">
+        <div class="container cont-1 flex">
             <div class="flex-1">
                 <img class="about-me-img" width="300" height="350" src="images/img2.jpg">
             </div>
@@ -184,6 +191,7 @@
                         <h2 class="mytext">Css</h2>
                     </div>
                     </div>
+
                     <div class="mycard">
                         <div class="box">
                             <div class="percent">
@@ -198,40 +206,8 @@
                             <h2 class="mytext">Javascript</h2>
                         </div>
                         </div>
-                
-            </div>
-
-            <!-- sectio 2 -->
-            <div class="mycontainer" id="skill">
-                <div class="mycard me2">
-                <div class="box">
-                    <div class="percent">
-                        <svg>
-                            <circle cx="70" cy="70" r="70"></circle>
-                            <circle cx="70" cy="70" r="70"></circle>
-                        </svg>
-                        <div class="number">
-                            <h2>75<span>%</span></h2>
-                        </div>
-                    </div>
-                    <h2 class="mytext">Django</h2>
-                </div>
-                </div>
-                <div class="mycard me2">
-                    <div class="box">
-                        <div class="percent">
-                            <svg>
-                                <circle cx="70" cy="70" r="70"></circle>
-                                <circle cx="70" cy="70" r="70"></circle>
-                            </svg>
-                            <div class="number">
-                                <h2>70<span>%</span></h2>
-                            </div>
-                        </div>
-                        <h2 class="mytext">Git</h2>
-                    </div>
-                    </div>
-                    <div class="mycard me2">
+                           
+                    <div class="mycard">
                         <div class="box">
                             <div class="percent">
                                 <svg>
@@ -239,7 +215,39 @@
                                     <circle cx="70" cy="70" r="70"></circle>
                                 </svg>
                                 <div class="number">
-                                    <h2>68<span>%</span></h2>
+                                    <h2>75<span>%</span></h2>
+                                </div>
+                            </div>
+                            <h2 class="mytext">Django</h2>
+                        </div>
+                        </div>
+
+                           
+                    <div class="mycard">
+                        <div class="box">
+                            <div class="percent">
+                                <svg>
+                                    <circle cx="70" cy="70" r="70"></circle>
+                                    <circle cx="70" cy="70" r="70"></circle>
+                                </svg>
+                                <div class="number">
+                                    <h2>75<span>%</span></h2>
+                                </div>
+                            </div>
+                            <h2 class="mytext">Git</h2>
+                        </div>
+                        </div>
+
+                           
+                    <div class="mycard">
+                        <div class="box">
+                            <div class="percent">
+                                <svg>
+                                    <circle cx="70" cy="70" r="70"></circle>
+                                    <circle cx="70" cy="70" r="70"></circle>
+                                </svg>
+                                <div class="number">
+                                    <h2>65<span>%</span></h2>
                                 </div>
                             </div>
                             <h2 class="mytext">Php</h2>
@@ -247,7 +255,8 @@
                         </div>
                 
             </div>
-       <!-- section 2 end -->
+
+           
         </section>
     <section id="portifolio" class="work">
         <div class="container">
@@ -361,16 +370,41 @@
 
         </div>
     </div>
+
+    <div class="card">
+        <div class="img-wrapper">
+            <img src="images/nile.jpg" alt="">
+        </div>
+        <div class="card-content">
+           <a href="https://en.wikipedia.org/wiki/Axum">
+               <h1>Blue Nile Falls, Ethiopia</h1>
+           </a>
+           <span>october 10,2019</span>
+           <p>he Blue Nile Falls is a waterfall on the Blue Nile river in Ethiopia. 
+               It is known as Tis Abay in Amharic, meaning 
+               "great smoke". It is situated on the upper course 
+               of the river, about 30 kilometres downstream from t
+               he town of Bahir Dar and Lake Tana. The falls are one of Ethiop
+               ia's best-known tourist attractions. The falls are 42 metres high, co
+               nsisting of four streams that originally varied
+                from a trickle in the dry season to over 400 meters wide in th
+                e rainy season. Regulation of Lake Tana now reduces the variat
+                ion somewhat, and since 2003 a hydro-electric station has taken much 
+                of the flow out of the falls except during the </p>
+               <a href="https://en.wikipedia.org/wiki/Blue_Nile_Falls">Read More</a> 
+
+        </div>
+    </div>
    </div>
     </section>
   <section class="share">
-    <h1 class="section-heading"><span>Wanna Start</span><h5 style="color: rgb(14, 14, 14); font-size: 25px;">Coding</h5></h1>
+    <h1 class="section-heading" id="typing"><span class="">Wanna Start Coding</span><h5  id="crow">| </h5></h1>
     
       <div class="share-items flex ">
      
           <div class="my-video">
 
-            <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/dU1xS07N-FA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe  src="https://www.youtube-nocookie.com/embed/dU1xS07N-FA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
           <div class="desc">
             <h1 class="section-heading" ><span>Why Coding ?</span></h1>
@@ -407,19 +441,19 @@
                         <h6>Adama, Ethiopia</h6>
                     </div>
                 </div>
-                <form>
+                <form action="https://send.pageclip.co/bQTTr1jta0sTiYC0jhmVBkfzNnMJKTJD/contact-form" class="pageclip-form" method="post"> 
                     <div class="input-wrap">
-                        <input type="text" placeholder="your name">
-                        <input type="email" placeholder="your email">
-                        <input type="text" placeholder="your title">                    
+                        <input type="text" name="UserName" placeholder="your name">
+                        <input type="email" name="UserEmail" placeholder="your email">
+                        <input type="text" name="Title" placeholder="your title">                    
                     </div>
                     <div class="input-wrap-2">
-                        <input type="text" placeholder="your subject...">
-                        <textarea name="" id="" cols="30" rows="10" placeholder="Your message"></textarea>
+                        <input type="text"  name="Subject" placeholder="your subject...">
+                        <textarea name="UserMessage" id="" cols="30" rows="10" placeholder="Your message"></textarea>
     
                     </div>
                     <div class="btn-wrapper">
-                        <button class="btn btn-primary">Send Message</button>
+                        <button class="btn btn-primary pageclip-form__submit">Send Message</button>
                     </div>
                 </form>
         </div>
@@ -443,8 +477,34 @@
 
     </footer>
       <!--===== SCROLL REVEAL =====-->
-      <script src="https://unpkg.com/scrollreveal"></script>
+      <!-- <script src="https://unpkg.com/scrollreveal"></script> -->
     <script>
+        function dropMenue(){
+            var menu = document.getElementById('mynave');
+            var btn = document.getElementById("btn");
+            if (menu.className=="left flex center-items"){
+                menu.classList.add("menue");
+                menu.style.opacity = "0";
+                menu.animate([
+                    {opacity: "0.5"},
+                    {opacity: "0.75"},
+                    {opacity: "1"}
+                ], {duration: 500, fill:"forwards",easing:"ease-in"})
+          
+                btn.animate([
+                    {opacity: "0.75"},
+                    {opacity: "1"}
+                ], {duration: 500, fill:"forwards",easing:"ease-in"})
+
+                btn.innerHTML =" &#9932; "
+                
+            }
+            else{
+                menu.classList.remove('menue');
+                btn.innerHTML = '&#9777;';
+            }
+        }
+
 const texts =["Software Developer", "front-end Developer", "Quick Learner"];
 let count=0;
 let index=0;
@@ -525,5 +585,7 @@ sr.reveal('img',{interval: 200});
 
 
     </script>
+
+<script src="https://s.pageclip.co/v1/pageclip.js" charset="utf-8"></script>
 </body>
 </html>
