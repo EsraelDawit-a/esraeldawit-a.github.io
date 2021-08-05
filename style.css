@@ -404,9 +404,10 @@ section.blog .card-wrapper{
     flex-wrap: wrap;
 }
 section.blog .card-wrapper .card{
+    margin-top: 10px !important;
     background: var(--pure);
     border-radius: 10px;
-    width: 400px;
+    width: 350px;
     margin: auto;
     margin-bottom: 35px;
     overflow: hidden;
@@ -837,6 +838,9 @@ svg circle:nth-child(2){
     display: flex !important;
     flex-wrap: wrap !important;
 }
+.dropme{
+    display: none;
+}
 @media only screen and (max-width: 840px) {
    .menue{
        position: absolute;
@@ -858,9 +862,10 @@ svg circle:nth-child(2){
        display: none;
    }
    .dropme{
+       display: block;
        z-index: 999;
        margin-right: 1px;
-       margin-top: 20px;
+     
 
    }
    .menue ul{
