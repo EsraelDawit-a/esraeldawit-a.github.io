@@ -841,11 +841,16 @@ svg circle:nth-child(2){
 .dropme{
     display: none;
 }
+.test {
+    display: none;
+}
+
 @media only screen and (max-width: 840px) {
-    .right{
+    .mr{
         display: none;
     }
     .test{
+        display: block;
         margin-top: 10px;
     }
    .menue{
