@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="css/myutils.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <script src="https://unpkg.com/scrollreveal"></script>
     <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-EWXJE2Z4X9"></script>
 <script>
@@ -58,7 +59,7 @@
                     <li><a href="#services">Services</a></li>
                     <li><a href="#portifolio">Portifolio</a></li>
                     <li><a href="#status">Status</a></li>
-                    <a style="text-decoration: none;" href="#contact" class="btn btn-primary test">Contact</a>
+                    <a style="text-decoration: none;" href="#contact" class="test test1">Contact</a>
                     
                 </ul>
             </div>
@@ -477,9 +478,7 @@
                 </form>
         </div>
     </section>
-    <div class="to-top"  onclick="topFunction()" id = "myBtn">
-        <div class="mytop"><img src="https://img.icons8.com/clouds/100/000000/up.png"/></div>
-      </div>
+   
     <footer>
         <img class="footer-logo" src="logos/logo2.png" alt="">
         <div class="footer-socials">
@@ -496,9 +495,33 @@
 
     </footer>
       <!--===== SCROLL REVEAL =====-->
-    <script src="https://unpkg.com/scrollreveal"></script>
+    <!-- <script src="https://unpkg.com/scrollreveal"></script> -->
+     <div class="to-top"  onclick="topFunction()" id = "myBtn">
+        <div class="mytop"><img src="images/up.png"/></div>
+      </div>
     <script src="my.js"></script>
+    <script>
+        //Get the button:
+mybutton = document.getElementById("myBtn");
 
+
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+mybutton.style.display = "block";
+} else {
+mybutton.style.display = "none";
+}
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+document.body.scrollTop = 0; // For Safari
+document.documentElement.scrollTop = 0; // For Chrome, Firefox
+} 
+
+    </script>
 <script src="https://s.pageclip.co/v1/pageclip.js" charset="utf-8"></script>
 </body>
 </html>

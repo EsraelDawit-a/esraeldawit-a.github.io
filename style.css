@@ -844,7 +844,25 @@ svg circle:nth-child(2){
 .test {
     display: none;
 }
-
+.test{
+    padding: 0.8rem 3rem;
+    font-size: 1rem;
+    font-weight: 600;
+    border: 2px solid transparent;
+    outline: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: all .3s ease;
+}
+.test:hover{
+    background: transparent;
+    border-color: var(--primary);
+    color: var(--primary);
+}
+.test1{
+    background-color: var(--primary);
+    color: var(--secondary);
+}
 @media only screen and (max-width: 840px) {
     .mr{
         display: none;

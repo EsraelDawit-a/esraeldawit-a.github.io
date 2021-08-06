@@ -35,7 +35,6 @@ index=0;
 setTimeout(type,250);
 })();
 
-//Get the button:
 mybutton = document.getElementById("myBtn");
 
 
